@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "internet-speed-tracker"
+version = "0.1.0"
+description = ""
+authors = ["sherif"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+schedule = "^1.2.1"
+google-api-python-client = "^2.104.0"
+google-auth-httplib2 = "^0.1.1"
+google-auth-oauthlib = "^1.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
