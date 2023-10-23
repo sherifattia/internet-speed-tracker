@@ -63,7 +63,7 @@ def write_to_sheets(date, download_speed, upload_speed):
     spreadsheet_id = "1joCoGDGrL9ltwTB0J35tqKo7HI9-Q4cM1cLED1ZXWTc"
 
     # The A1 notation of the values to update
-    range_name = "Sheet1!A1"  # TODO: Update placeholder value
+    range_name = "results!A1"
 
     # Values to append: a list of lists, each inner list representing a row
     values = [[date, download_speed, upload_speed]]
